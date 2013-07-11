@@ -1,0 +1,7 @@
+{
+    "query": {
+				"term": {"state": "Karnataka"}
+    },
+    "size": 10,
+    "from": 0
+}

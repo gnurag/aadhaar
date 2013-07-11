@@ -1,0 +1,16 @@
+{
+    "query": {
+				"match_all": {}
+    },
+    "facets": {
+				"ages": {
+						"terms": {
+								"field": "age",
+								"size" : 10000,
+								"all_terms": true
+						}
+				}
+    },
+    "size": 0,
+    "from": 0
+}

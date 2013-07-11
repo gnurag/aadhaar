@@ -1,0 +1,16 @@
+{
+    "query": {
+				"match_all": {}
+    },
+    "facets": {
+				"gender": {
+						"terms": {
+								"field": "gender",
+								"size" : 10,
+								"all_terms": false
+						}
+				}
+    },
+    "size": 0,
+    "from": 0
+}

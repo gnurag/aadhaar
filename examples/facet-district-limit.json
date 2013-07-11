@@ -1,0 +1,15 @@
+{
+    "query": {
+				"term": {"state": "Karnataka"}
+    },
+		"facets": {
+				"enrollments": {
+						"terms": {
+								"field": "district",
+								"size": 30
+						}
+				}
+		},
+    "size": 0,
+    "from": 0
+}
